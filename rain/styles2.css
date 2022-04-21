@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  background: url(./rain_bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.rain {
+  background: url("./rain.png");
+  height: 100%;
+  animation: rain 0.4s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 10% 100%;
+  }
+}
